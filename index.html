@@ -25,32 +25,25 @@
         <label for="tab1">About Me</label>
         <div class="tabContent">
           <zero-md id="rightAlign" src="aboutme.md"></zero-md>
+          Can I put text here?
         </div>
         <input type="radio" name="tabs" id="tab2"> 
-        <label for="tab2">Courses</label>
-        <div class="tabContent">
-          <zero-md id="rightAlign" src="courses.md"></zero-md>
-        </div>
         <!-- ------------- ADD RESUME HERE  ----------- --> 
         <input type="radio" name="tabs" id="tab3"> 
-        <label for="tab3">Resume</label>
+        <label for="tab3">Curriculum Vitae</label>
         <div class="tabContent">
-          <object data="catStatResume.pdf" 
+          <object data="CVcurrent.pdf" 
                   align="right"
                   width="100%" 
                   height="700"> 
           </object>
         </div>
         <input type="radio" name="tabs" id="tab4"> 
-        <label for="tab4">Research</label>
+        <label for="tab4">Contact</label>
         <div class="tabContent">
           <zero-md id="rightAlign" src="research.md"></zero-md>
         </div>
-        <input type="radio" name="tabs" id="tab5"> 
-        <label for="tab5">Talks</label>
-        <div class="tabContent">
-          <zero-md id="rightAlign" src="talks.md"></zero-md>
-        </div>
+
        
         <!-- ------------------------------------------------------------------------ -->
         <!-- if you want to add a tab(s) copy and paste below, and make the corresponding
@@ -70,9 +63,6 @@
       <!-- ------------------------------------------------------------------------ -->
   </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
   </div>
